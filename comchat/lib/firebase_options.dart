@@ -26,10 +26,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.macOS:
         return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -43,39 +40,51 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'YOUR_API_KEY',
-    appId: 'YOUR_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    authDomain: 'YOUR_AUTH_DOMAIN',
-    storageBucket: 'YOUR_STORAGE_BUCKET',
+    apiKey: 'AIzaSyA-liCirmvIDlCJyV8qPGGUvcUdNTmrnQM',
+    appId: '1:527773746265:web:577aec17b546ae87689d48',
+    messagingSenderId: '527773746265',
+    projectId: 'comchat-ae2c9',
+    authDomain: 'comchat-ae2c9.firebaseapp.com',
+    storageBucket: 'comchat-ae2c9.firebasestorage.app',
+    measurementId: 'G-7HN88NDXV1',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'YOUR_API_KEY',
-    appId: 'YOUR_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_STORAGE_BUCKET',
+    apiKey: 'AIzaSyATKTSnGlHB1RZ8pUUtAfG2lb4m6lutvoA',
+    appId: '1:527773746265:android:427096c81ab244a0689d48',
+    messagingSenderId: '527773746265',
+    projectId: 'comchat-ae2c9',
+    storageBucket: 'comchat-ae2c9.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'YOUR_API_KEY',
-    appId: 'YOUR_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_STORAGE_BUCKET',
-    iosClientId: 'YOUR_IOS_CLIENT_ID',
-    iosBundleId: 'YOUR_IOS_BUNDLE_ID',
+    apiKey: 'AIzaSyAsCJPNLwvVU7JdmLOFoRu14zyg8T9WxlI',
+    appId: '1:527773746265:ios:a18a60e8a98e7ef0689d48',
+    messagingSenderId: '527773746265',
+    projectId: 'comchat-ae2c9',
+    storageBucket: 'comchat-ae2c9.firebasestorage.app',
+    iosClientId: '527773746265-ej8njujjm1fk02gcsqh05pd986rka1jd.apps.googleusercontent.com',
+    iosBundleId: 'com.example.comchat',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'YOUR_API_KEY',
-    appId: 'YOUR_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_STORAGE_BUCKET',
-    iosClientId: 'YOUR_IOS_CLIENT_ID',
-    iosBundleId: 'YOUR_IOS_BUNDLE_ID',
+    apiKey: 'AIzaSyAsCJPNLwvVU7JdmLOFoRu14zyg8T9WxlI',
+    appId: '1:527773746265:ios:a18a60e8a98e7ef0689d48',
+    messagingSenderId: '527773746265',
+    projectId: 'comchat-ae2c9',
+    storageBucket: 'comchat-ae2c9.firebasestorage.app',
+    iosClientId: '527773746265-ej8njujjm1fk02gcsqh05pd986rka1jd.apps.googleusercontent.com',
+    iosBundleId: 'com.example.comchat',
   );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyA-liCirmvIDlCJyV8qPGGUvcUdNTmrnQM',
+    appId: '1:527773746265:web:2a667daa7e4b2ef4689d48',
+    messagingSenderId: '527773746265',
+    projectId: 'comchat-ae2c9',
+    authDomain: 'comchat-ae2c9.firebaseapp.com',
+    storageBucket: 'comchat-ae2c9.firebasestorage.app',
+    measurementId: 'G-362KNF0JMK',
+  );
+
 }

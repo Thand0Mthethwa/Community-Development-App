@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"flutter":{"platforms":{"android":{"default":{"projectId":"comchat-ae2c9","appId":"1:527773746265:android:427096c81ab244a0689d48","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"comchat-ae2c9","configurations":{"android":"1:527773746265:android:427096c81ab244a0689d48","ios":"1:527773746265:ios:a18a60e8a98e7ef0689d48","macos":"1:527773746265:ios:a18a60e8a98e7ef0689d48","web":"1:527773746265:web:577aec17b546ae87689d48","windows":"1:527773746265:web:2a667daa7e4b2ef4689d48"}}}}}}
+=======
+{"flutter":{"platforms":{"android":{"default":{"projectId":"comchat-ae2c9","appId":"1:527773746265:android:427096c81ab244a0689d48","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"comchat-ae2c9","configurations":{"android":"1:527773746265:android:427096c81ab244a0689d48","ios":"1:527773746265:ios:a18a60e8a98e7ef0689d48","web":"1:527773746265:web:577aec17b546ae87689d48"}}}}}}
+>>>>>>> main
